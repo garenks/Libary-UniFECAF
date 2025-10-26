@@ -49,7 +49,7 @@ body {
 .nav__link.active {
     border-bottom: 3px solid #008EAB; 
     padding-bottom: 4px;
-    width: 2rem;
+    
 
 }
 
