@@ -114,32 +114,41 @@ header {
 }
 
 
+
+
 .diferencial{
     display: flex;
-    justify-content: space-around;
-    margin: 2rem 5vw;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    background-color: #fff;
+    padding: 40px;
     
     
 }
+
+
+
+
 
 .libary{
     border-color: #004B79;
     border-width: 2px;
     border-style: solid;
     border-radius: 8px;
-    text-align: right;
-    width: 20vw;
+    text-align: center;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #004B79;
+    padding: 0% 1.0vw;
+    border-radius: 6px;
+    height: 10vh;
 
 }
 
-.icon1{
-    width: 4vw;          
-    height: auto;
-    display: block;
-    color: #1BB267;
 
-}
 
 
 .atendimento{
@@ -147,7 +156,18 @@ header {
     border-width: 2px;
     border-style: solid;
     border-radius: 8px;
+    text-align: center;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #004B79;
+    padding: 0% 1.0vw;
+    border-radius: 6px;
+    height: 10vh;
 }
+
+
 
 
 .wi-fi{
@@ -155,4 +175,37 @@ header {
     border-width: 2px;
     border-style: solid;
     border-radius: 8px;
+    text-align: center;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border: 1px solid #004B79;
+    padding: 0% 1.0vw;
+    border-radius: 6px;
+    height: 10vh;
+}
+
+
+
+
+.icon1{
+    width: 3vw;          
+    height: auto;
+    display: block;
+    color: #1BB267;
+}
+
+.icon2{
+    width: 2vw;          
+    height: auto;
+    display: block;
+    color: #1BB267;
+}
+
+.icon3{
+    width: 2vw;          
+    height: auto;
+    display: block;
+    color: #1BB267;
 }
