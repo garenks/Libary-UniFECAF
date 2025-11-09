@@ -245,3 +245,12 @@ header {
     display: block;
     color: #1BB267;
 }
+
+
+
+.footer{
+    background-color: #004B79;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 5rem;
+}
