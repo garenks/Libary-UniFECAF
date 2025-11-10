@@ -53,12 +53,6 @@ body {
 }
 
 
-
-
-.nav__link:hover {
-    color: #ff0000; 
-}
-
 header {
     border-bottom: 2px solid #e0e0e0;
 }
@@ -105,6 +99,21 @@ header {
 }
 
 
+.img-inicial {
+    float: right;              
+    width: 25vw;              
+    height: auto;
+    margin-right: 12vw;         
+    margin-left: 2vw;          
+    margin-top: -340px;        
+    border-radius: 6px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+
+
 .livros-container{
     display: grid;
     justify-items: center;
@@ -128,11 +137,11 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.livros-img{
-    width: 90%;
-    height: auto;
+.livro-img{
+    width: 100%;
+    height: 260px;
     border-radius: 4px;
-    margin-top: 10px;
+    object-fit: cover;
 }
 
 .Disponivel{
